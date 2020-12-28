@@ -11,6 +11,7 @@ function snow(){
         snow.style.height = 1 + size + "px"
         snow.style.width = 1 + size + "px"
         section.appendChild(snow)
+        snow.style.animationDuration = size + "s"
         i++;
     }
 }
